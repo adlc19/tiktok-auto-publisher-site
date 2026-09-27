@@ -1,0 +1,123 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="TikTok Auto Publisher is a desktop utility for scheduling and publishing user-authorized TikTok content.">
+<title>Presentation · TikTok Auto Publisher</title>
+<style>
+:root{
+  --bg:#f7f8fa; --card:#ffffff; --text:#111827; --muted:#6b7280;
+  --line:#e5e7eb; --accent:#111827; --accent2:#374151;
+}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{
+  margin:0; background:var(--bg); color:var(--text);
+  font:16px/1.65 system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;
+}
+.container{max-width:920px;margin:0 auto;padding:0 22px}
+header{
+  background:#fff;border-bottom:1px solid var(--line);
+  position:sticky;top:0;z-index:10;
+}
+.nav{display:flex;align-items:center;justify-content:space-between;gap:16px;min-height:64px}
+.brand{font-weight:800;color:var(--text);text-decoration:none}
+nav a{color:var(--muted);text-decoration:none;margin-left:18px}
+nav a:hover{color:var(--text)}
+main{padding:52px 0 72px}
+.hero{margin-bottom:34px}
+h1{font-size:clamp(2rem,5vw,3rem);line-height:1.1;margin:0 0 12px}
+h2{margin-top:34px;line-height:1.25}
+h3{margin-top:26px}
+.lead{font-size:1.12rem;color:var(--muted);max-width:760px}
+.meta{font-size:.92rem;color:var(--muted)}
+.card{
+  background:var(--card);border:1px solid var(--line);
+  border-radius:16px;padding:26px;margin:18px 0;
+}
+.notice{
+  border-left:4px solid var(--accent);background:#fff;
+  padding:16px 18px;margin:24px 0;border-radius:8px;
+}
+code{background:#f0f1f3;padding:2px 6px;border-radius:5px}
+footer{
+  border-top:1px solid var(--line);padding:28px 0 40px;
+  color:var(--muted);font-size:.9rem;
+}
+footer a{color:inherit}
+ul{padding-left:22px}
+@media(max-width:700px){
+  .nav{align-items:flex-start;padding:12px 0}
+  nav a{display:inline-block;margin:0 12px 0 0}
+  main{padding-top:34px}
+}
+</style>
+</head>
+<body>
+<header>
+  <div class="container nav">
+    <a class="brand" href="index.html">TikTok Auto Publisher</a>
+    <nav><a href="index.html">Home</a> <a href="privacy.html">Privacy</a> <a href="terms.html">Terms</a></nav>
+  </div>
+</header>
+<main class="container">
+  
+<section class="hero">
+  <div class="meta">Updated 2026-09-27</div>
+  <h1>Video publishing utility for TikTok</h1>
+  <p class="lead">
+    TikTok Auto Publisher is a desktop utility that helps a user schedule and publish
+    their own videos to TikTok accounts that they have explicitly authorized,
+    using TikTok's official developer APIs.
+  </p>
+</section>
+
+<div class="card">
+  <h2>What this app does</h2>
+  <p>
+    The application runs on the user's computer. The user selects or schedules local
+    video files, connects one or more TikTok accounts through TikTok's authorization
+    flow, and the application sends the selected content to TikTok for publication.
+  </p>
+  <p>
+    The application is not a social network, does not sell user data, and does not
+    provide a public account-management website.
+  </p>
+</div>
+
+<div class="card">
+  <h2>How the TikTok integration works</h2>
+  <ol>
+    <li>The user starts the application on their own computer.</li>
+    <li>The user authorizes the application through TikTok Login Kit.</li>
+    <li>The application receives the authorization credentials needed for the
+        selected TikTok API features.</li>
+    <li>The application submits the user's selected video to TikTok using the
+        Content Posting API.</li>
+  </ol>
+</div>
+
+<div class="card">
+  <h2>Legal information</h2>
+  <p><a href="privacy.html">Privacy Policy</a></p>
+  <p><a href="terms.html">Terms of Service</a></p>
+</div>
+
+<div class="card">
+  <h2>Contact</h2>
+  <p>
+    For questions about this application or these pages, contact
+    <a href="mailto:[YOUR_EMAIL]">[adim1904@hotmail.com]</a>.
+  </p>
+</div>
+
+</main>
+<footer>
+  <div class="container">
+    <div>© 2026 TikTok Auto Publisher. Not affiliated with TikTok.</div>
+    <div>Contact: <a href="mailto:[YOUR_EMAIL]">[adim1904@hotmail.com]</a></div>
+  </div>
+</footer>
+</body>
+</html>
